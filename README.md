@@ -1,150 +1,107 @@
-# Bicycle Sales & Inventory Analytics using SQL
+# Bicycle Sales & Inventory Analytics (SQL)
+
+SQL analytics project analyzing bicycle sales performance, inventory efficiency, promotion costs, and customer retention using the AdventureWorks dataset.
+
+---
 
 ## 📌 Project Overview
-This project analyzes bicycle sales performance, inventory levels, promotions, and customer retention using SQL on the AdventureWorks dataset.  
-The goal is to support data-driven decision-making for a bicycle manufacturing and retail business by evaluating sales growth, inventory efficiency, promotion costs, and customer retention patterns.
+This project focuses on a bicycle manufacturing and retail business.  
+Using SQL, the analysis answers key business questions related to sales growth, inventory management, promotions, and customer retention to support operational and strategic decision-making.
 
-**Industry**
-- Bicycle Manufacturing & Retail
-
-**Dataset**
-- AdventureWorks Database (BigQuery public dataset)
-- Time period: 2011 – 2014
-
-**Tools**
-- Google BigQuery (Standard SQL)
+**Industry:** Bicycle Manufacturing & Retail  
+**Dataset:** AdventureWorks sample database (BigQuery public dataset)  
+**Time period:** 2011 – 2014  
+**Tools:** Google BigQuery (Standard SQL)
 
 ---
 
 ## 🎯 Business Objectives
 - Analyze bicycle sales performance by subcategory
-- Identify fast-growing bicycle product segments
-- Evaluate regional demand across sales territories
-- Measure seasonal promotion and discount costs
-- Analyze customer retention using cohort analysis
+- Identify fast-growing product segments
+- Understand regional sales concentration
+- Evaluate seasonal promotion costs
+- Measure customer retention behavior
 - Assess inventory efficiency and stock risk
 - Monitor operational exposure from pending purchase orders
 
 ---
 
-## 📊 Business Questions & Analysis
+## 📊 Business Questions & Key Insights
+
+### 1️⃣ Bicycle Sales Performance (Last 12 Months)
+**Insight:**  
+Bike Racks are the primary revenue driver, while several subcategories contribute low volume and limited revenue. Sales show clear seasonality.
+
+📂 SQL: [01_sales_l12m.sql](sql/01_sales_l12m.sql)
 
 ---
 
-### 1️⃣ Bicycle Sales Performance by Subcategory (Last 12 Months)
+### 2️⃣ Year-over-Year Growth by Subcategory
+**Insight:**  
+Apparel-related products (Socks, Shorts, Jerseys) show the strongest YoY growth, indicating expansion opportunities beyond core bicycle products.
 
-**Business Question**  
-How do quantity sold, sales value, and order volume perform by bicycle subcategory over the last 12 months?
-
-📂 SQL: [query_01_sales_l12m.sql](sql/query_01_sales_l12m.sql)
-
-**Insights**
-- Sales contribution varies significantly across bicycle subcategories.
-- High-value segments should be prioritized for inventory planning.
+📂 SQL: [02_yoy_growth.sql](sql/02_yoy_growth.sql)
 
 ---
 
-### 2️⃣ Year-over-Year Growth by Bicycle Subcategory (Top 3)
+### 3️⃣ Top Sales Territories by Order Quantity
+**Insight:**  
+A small number of territories consistently dominate bicycle demand, with TerritoryID 4 ranking #1 across multiple years.
 
-**Business Question**  
-Which bicycle subcategories show the highest year-over-year growth in quantity sold?
-
-📂 SQL: [query_02_yoy_growth.sql](sql/query_02_yoy_growth.sql)
-
-**Insights**
-- Fast-growing subcategories represent strong expansion opportunities.
-- Slower-growth segments require pricing or assortment review.
+📂 SQL: [03_top_territory.sql](sql/03_top_territory.sql)
 
 ---
 
-### 3️⃣ Top 3 Sales Territories by Bicycle Order Quantity
+### 4️⃣ Seasonal Promotion Discount Cost
+**Insight:**  
+Discount costs increased year-over-year, particularly for helmets, highlighting the need to balance promotional spend and margin protection.
 
-**Business Question**  
-Which sales territories generate the highest bicycle order volumes each year?
-
-📂 SQL: [query_03_top_territory.sql](sql/query_03_top_territory.sql)
-
-**Insights**
-- Demand is concentrated in a few key territories.
-- Regional sales strategies should focus on these high-performing markets.
+📂 SQL: [04_discount_cost.sql](sql/04_discount_cost.sql)
 
 ---
 
-### 4️⃣ Seasonal Promotion Discount Cost by Bicycle Subcategory
+### 5️⃣ Customer Retention Analysis (2014 Cohort)
+**Insight:**  
+Customer retention drops sharply after the first purchase month, emphasizing the importance of early post-purchase engagement.
 
-**Business Question**  
-What is the total cost of seasonal discounts applied to bicycle products?
-
-📂 SQL: [query_04_discount_cost.sql](sql/query_04_discount_cost.sql)
-
-**Insights**
-- Discount costs vary widely by subcategory.
-- Promotion strategies should balance volume growth and margin protection.
+📂 SQL: [05_customer_retention.sql](sql/05_customer_retention.sql)
 
 ---
 
-### 5️⃣ Bicycle Customer Retention Analysis (2014 Cohort)
+### 6️⃣ Inventory Stock Trend & MoM Change
+**Insight:**  
+Inventory levels fluctuate significantly across products, suggesting demand forecasting and production planning challenges.
 
-**Business Question**  
-What is the monthly retention rate of bicycle customers with successfully shipped orders in 2014?
-
-📂 SQL: [query_05_customer_retention.sql](sql/query_05_customer_retention.sql)
-
-**Insights**
-- Retention declines quickly after first purchase.
-- Early engagement and after-sales services are critical for retention.
+📂 SQL: [06_stock_trend.sql](sql/06_stock_trend.sql)
 
 ---
 
-### 6️⃣ Bicycle Inventory Stock Trend & Month-over-Month Change (2011)
+### 7️⃣ Stock-to-Sales Ratio Analysis
+**Insight:**  
+Several bicycle models show high stock-to-sales ratios, indicating overstocking and slow-moving inventory risks.
 
-**Business Question**  
-How do bicycle inventory levels change month-over-month?
-
-📂 SQL: [query_06_stock_trend.sql](sql/query_06_stock_trend.sql)
-
-**Insights**
-- Inventory levels fluctuate significantly across products.
-- Better demand forecasting can reduce stock volatility.
+📂 SQL: [07_stock_sales_ratio.sql](sql/07_stock_sales_ratio.sql)
 
 ---
 
-### 7️⃣ Stock-to-Sales Ratio for Bicycle Products (2011)
+### 8️⃣ Pending Purchase Orders Risk
+**Insight:**  
+A large number of pending purchase orders represent material operational and financial risk for the supply chain.
 
-**Business Question**  
-How efficiently is bicycle inventory converted into sales?
-
-📂 SQL: [query_07_stock_sales_ratio.sql](sql/query_07_stock_sales_ratio.sql)
-
-**Insights**
-- High stock-to-sales ratios indicate overstocking risks.
-- Improving inventory turnover can enhance cash flow.
+📂 SQL: [08_pending_orders.sql](sql/08_pending_orders.sql)
 
 ---
 
-### 8️⃣ Pending Purchase Orders Risk (2014)
-
-**Business Question**  
-How many purchase orders remain pending and what is their total value?
-
-📂 SQL: [query_08_pending_orders.sql](sql/query_08_pending_orders.sql)
-
-**Insights**
-- Pending orders represent operational and financial risk.
-- Monitoring order status is critical for supply chain stability.
-
----
-
-## 🔑 Overall Business Takeaways
-- Bicycle sales growth is uneven across product subcategories and regions.
-- Inventory efficiency varies significantly by bicycle model.
-- Promotions generate high costs and must be ROI-driven.
-- Customer retention drops rapidly after first purchase.
-- Inventory and procurement visibility is essential for supply chain control.
+## 🔑 Key Takeaways
+- Bicycle sales are driven by a small number of high-performing products and regions.
+- Accessories and apparel offer strong growth potential.
+- Inventory management is a critical operational challenge.
+- Promotions and procurement decisions have direct margin and cash-flow impact.
+- Customer retention requires focused post-purchase strategies.
 
 ---
 
 ## 🚀 Next Steps
-- Build interactive dashboards for bicycle sales and inventory tracking
-- Integrate demand forecasting into production planning
+- Build dashboards for sales, inventory, and retention tracking
+- Integrate demand forecasting and inventory optimization
 - Extend analysis to profitability and customer lifetime value (CLV)
