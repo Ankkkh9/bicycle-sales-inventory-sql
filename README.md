@@ -32,7 +32,7 @@ Using SQL, the analysis answers key business questions related to sales growth, 
 **Insight:**  
 Bike Racks are the primary revenue driver, while several subcategories contribute low volume and limited revenue. Sales show clear seasonality.
 
-📂 SQL: [01_sales_l12m.sql](sql/query01_sales_l12m.sql)
+📂 SQL: [01_sales_l12m.sql](sql/query_01_sales_l12m.sql)
 
 ---
 
@@ -40,7 +40,7 @@ Bike Racks are the primary revenue driver, while several subcategories contribut
 **Insight:**  
 Apparel-related products (Socks, Shorts, Jerseys) show the strongest YoY growth, indicating expansion opportunities beyond core bicycle products.
 
-📂 SQL: [02_yoy_growth.sql](sql/query02_yoy_growth.sql)
+📂 SQL: [02_yoy_growth.sql](sql/query_02_yoy_growth.sql)
 
 ---
 
@@ -48,7 +48,7 @@ Apparel-related products (Socks, Shorts, Jerseys) show the strongest YoY growth,
 **Insight:**  
 A small number of territories consistently dominate bicycle demand, with TerritoryID 4 ranking #1 across multiple years.
 
-📂 SQL: [03_top_territory.sql](sql/query03_top_territory.sql)
+📂 SQL: [03_top_territory.sql](sql/query_03_top_territory.sql)
 
 ---
 
@@ -56,7 +56,7 @@ A small number of territories consistently dominate bicycle demand, with Territo
 **Insight:**  
 Discount costs increased year-over-year, particularly for helmets, highlighting the need to balance promotional spend and margin protection.
 
-📂 SQL: [04_discount_cost.sql](sql/query04_discount_cost.sql)
+📂 SQL: [04_discount_cost.sql](sql/query_04_discount_cost.sql)
 
 ---
 
@@ -64,7 +64,7 @@ Discount costs increased year-over-year, particularly for helmets, highlighting 
 **Insight:**  
 Customer retention drops sharply after the first purchase month, emphasizing the importance of early post-purchase engagement.
 
-📂 SQL: [05_customer_retention.sql](sql/query05_customer_retention.sql)
+📂 SQL: [05_customer_retention.sql](sql/query_05_customer_retention.sql)
 
 ---
 
@@ -72,7 +72,7 @@ Customer retention drops sharply after the first purchase month, emphasizing the
 **Insight:**  
 Inventory levels fluctuate significantly across products, suggesting demand forecasting and production planning challenges.
 
-📂 SQL: [06_stock_trend.sql](sql/query06_stock_trend.sql)
+📂 SQL: [06_stock_trend.sql](sql/query_06_stock_trend.sql)
 
 ---
 
@@ -80,7 +80,7 @@ Inventory levels fluctuate significantly across products, suggesting demand fore
 **Insight:**  
 Several bicycle models show high stock-to-sales ratios, indicating overstocking and slow-moving inventory risks.
 
-📂 SQL: [07_stock_sales_ratio.sql](sql/query07_stock_sales_ratio.sql)
+📂 SQL: [07_stock_sales_ratio.sql](sql/query_07_stock_sales_ratio.sql)
 
 ---
 
@@ -88,7 +88,7 @@ Several bicycle models show high stock-to-sales ratios, indicating overstocking 
 **Insight:**  
 A large number of pending purchase orders represent material operational and financial risk for the supply chain.
 
-📂 SQL: [08_pending_orders.sql](sql/query08_pending_orders.sql)
+📂 SQL: [08_pending_orders.sql](sql/query_08_pending_orders.sql)
 
 ---
 
