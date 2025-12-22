@@ -1,6 +1,5 @@
 ---Q6: Trend of Stock level & MoM diff % by all product in 2011. If %gr rate is null then 0. Round to 1 decimal
 
-
 ---Choose facts which need in the formula
 WITH raw1 AS(SELECT b.name,
                 SUM(StockedQty) AS cur_stock,
