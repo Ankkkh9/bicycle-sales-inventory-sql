@@ -8,7 +8,7 @@ The goal is to support data-driven decision-making for a bicycle manufacturing a
 - Bicycle Manufacturing & Retail
 
 **Dataset**
-- AdventureWorks Database (BigQuery public dataset): https://console.cloud.google.com/marketplace/details/ibm/analytics-adventure-works
+- AdventureWorks Database (BigQuery public dataset)
 - Time period: 2011 – 2014
 
 **Tools**
