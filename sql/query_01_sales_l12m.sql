@@ -23,6 +23,7 @@ WHERE date(sale.ModifiedDate) >= (SELECT DATE_SUB(DATE(MAX(ModifiedDate)) , INTE
 GROUP BY 1,2
 ORDER BY 2;
 
+--------------------------------------------------------------------------------------------------------
 --- Quantity of iterms, Sales Value & Order Quantity by each Subcategory
 SELECT
   DATE_TRUNC(DATE(sale.ModifiedDate), MONTH) AS period_sort,
