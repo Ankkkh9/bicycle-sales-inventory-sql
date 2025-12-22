@@ -28,7 +28,7 @@ Using SQL, the analysis answers key business questions related to sales growth, 
 
 ## 📊 Business Questions & Key Insights
 
-### 1️⃣ Bicycle Sales Performance (Last 12 Months)
+### 1️⃣ Bicycle Sales Performance
 Sales and quantity consistently peak in Q3, indicating a clear seasonal demand pattern at the quarterly level. Revenue is highly concentrated in Road Bikes and Mountain Bikes, which together contribute the majority of total sales and largely drive overall performance.
 
 
