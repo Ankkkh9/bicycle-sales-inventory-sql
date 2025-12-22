@@ -29,6 +29,9 @@ Using SQL, the analysis answers key business questions related to sales growth, 
 ## 📊 Business Questions & Key Insights
 
 ### 1️⃣ Bicycle Sales Performance (Last 12 Months)
+Sales value and total quantity show a strong positive relationship over the last 12 months. Revenue growth is mainly driven by higher sales volume rather than seasonality, with noticeable month-to-month volatility caused by demand spikes or large orders.
+
+
 ![Sales Trend](images/sales_trend.png)
 
 Sales value and quantity show a strong positive relationship with high volatility.
