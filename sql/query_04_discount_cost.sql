@@ -1,10 +1,5 @@
 ---Q4: Calc Total Discount Cost belongs to Seasonal Discount for each SubCategory
-
-
 ---total discount cost = %discount * quantity discount * price unit discount
-
-
-
 
 --- calculate total discount cost
 WITH raw1 AS(SELECT EXTRACT(YEAR FROM sale.ModifiedDate) AS year,
