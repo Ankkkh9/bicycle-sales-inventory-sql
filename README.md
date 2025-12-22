@@ -33,7 +33,8 @@ Using SQL, the analysis answers key business questions related to sales growth, 
 Note: The analysis above focuses on the most recent 12 months. To better assess long-term trends and seasonality, the analysis was later extended to a broader time period.
 </em></span>
 
-Sales and quantity consistently peak in Q3, indicating a clear seasonal demand pattern at the quarterly level. Revenue is highly concentrated in Road Bikes and Mountain Bikes, which together contribute the majority of total sales and largely drive overall performance.
+Sales and quantity **peak in Q3**, confirming a clear **seasonal pattern**.  
+**Road Bikes and Mountain Bikes** are the dominant subcategories, contributing **over 70% of total revenue** and driving overall performance.
 
 
 ![Sales Trend](images/sales_trend.png)
