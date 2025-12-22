@@ -29,8 +29,16 @@ Using SQL, the analysis answers key business questions related to sales growth, 
 ## 📊 Business Questions & Key Insights
 
 ### 1️⃣ Bicycle Sales Performance (Last 12 Months)
-**Insight:**  
-Bike Racks are the primary revenue driver, while several subcategories contribute low volume and limited revenue. Sales show clear seasonality.
+![Sales Trend](images/sales_trend.png)
+
+Sales value and quantity show a strong positive relationship with high volatility.
+Revenue growth appears to be driven by volume and large orders rather than clear seasonality.
+
+![Sales by Subcategory](images/sales_by_subcategory.png)
+
+Sales value is highly concentrated in Road Bikes and Mountain Bikes,
+which together contribute more than 70% of total revenue.
+
 
 📂 SQL: [01_sales_l12m.sql](sql/query_01_sales_l12m.sql)
 
