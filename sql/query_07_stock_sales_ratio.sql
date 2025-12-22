@@ -1,11 +1,6 @@
 ---Q7: Calc Ratio of Stock / Sales in 2011 by product name, by month
-
-
 ---Order results by month desc, ratio desc. Round Ratio to 1 decimal mom yoy
-
-
 ---OUTPUT: product name, product id, month, year, stock, sale, ratio
-
 
 ---Data from sale table
 WITH sale AS(SELECT a.productID, b.name,
