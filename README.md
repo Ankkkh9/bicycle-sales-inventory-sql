@@ -34,8 +34,7 @@ Sales and quantity consistently peak in Q3, indicating a clear seasonal demand p
 
 ![Sales Trend](images/sales_trend.png)
 
-Sales value and quantity show a strong positive relationship with high volatility.
-Revenue growth appears to be driven by volume and large orders rather than clear seasonality.
+Revenue growth during peak periods is driven by higher sales volume, reinforcing the strong seasonal demand observed in Q3.
 
 ![Sales by Subcategory](images/sales_by_subcategory.png)
 
