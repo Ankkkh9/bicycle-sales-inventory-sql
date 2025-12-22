@@ -8,7 +8,7 @@ The goal is to support data-driven decision-making for a bicycle manufacturing a
 - Bicycle Manufacturing & Retail
 
 **Dataset**
-- AdventureWorks Database (BigQuery public dataset)
+- AdventureWorks Database (BigQuery public dataset): https://console.cloud.google.com/marketplace/details/ibm/analytics-adventure-works
 - Time period: 2011 – 2014
 
 **Tools**
@@ -88,4 +88,63 @@ What is the total cost of seasonal discounts applied to bicycle products?
 **Business Question**  
 What is the monthly retention rate of bicycle customers with successfully shipped orders in 2014?
 
-📂 SQL: [q]()
+📂 SQL: [query_05_customer_retention.sql](sql/query_05_customer_retention.sql)
+
+**Insights**
+- Retention declines quickly after first purchase.
+- Early engagement and after-sales services are critical for retention.
+
+---
+
+### 6️⃣ Bicycle Inventory Stock Trend & Month-over-Month Change (2011)
+
+**Business Question**  
+How do bicycle inventory levels change month-over-month?
+
+📂 SQL: [query_06_stock_trend.sql](sql/query_06_stock_trend.sql)
+
+**Insights**
+- Inventory levels fluctuate significantly across products.
+- Better demand forecasting can reduce stock volatility.
+
+---
+
+### 7️⃣ Stock-to-Sales Ratio for Bicycle Products (2011)
+
+**Business Question**  
+How efficiently is bicycle inventory converted into sales?
+
+📂 SQL: [query_07_stock_sales_ratio.sql](sql/query_07_stock_sales_ratio.sql)
+
+**Insights**
+- High stock-to-sales ratios indicate overstocking risks.
+- Improving inventory turnover can enhance cash flow.
+
+---
+
+### 8️⃣ Pending Purchase Orders Risk (2014)
+
+**Business Question**  
+How many purchase orders remain pending and what is their total value?
+
+📂 SQL: [query_08_pending_orders.sql](sql/query_08_pending_orders.sql)
+
+**Insights**
+- Pending orders represent operational and financial risk.
+- Monitoring order status is critical for supply chain stability.
+
+---
+
+## 🔑 Overall Business Takeaways
+- Bicycle sales growth is uneven across product subcategories and regions.
+- Inventory efficiency varies significantly by bicycle model.
+- Promotions generate high costs and must be ROI-driven.
+- Customer retention drops rapidly after first purchase.
+- Inventory and procurement visibility is essential for supply chain control.
+
+---
+
+## 🚀 Next Steps
+- Build interactive dashboards for bicycle sales and inventory tracking
+- Integrate demand forecasting into production planning
+- Extend analysis to profitability and customer lifetime value (CLV)
