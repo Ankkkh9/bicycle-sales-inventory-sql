@@ -55,6 +55,14 @@ which together contribute more than 70% of total revenue.
 **Insight:**  
 Apparel-related products (Socks, Shorts, Jerseys) show the strongest YoY growth, indicating expansion opportunities beyond core bicycle products.
 
+**Top 3 Subcategories by YoY Quantity Growth**
+
+| Subcategory | Qty (Current) | Qty (Previous) | YoY Growth |
+|------------|---------------|----------------|------------|
+| **Socks**   | 2,724         | 523            | **+4.21x** |
+| Shorts     | 5,761         | 1,586          | +2.63x    |
+| Jerseys    | 12,104        | 4,263          | +1.84x    |
+
 📂 SQL: [02_yoy_growth.sql](sql/query_02_yoy_growth.sql)
 
 ---
