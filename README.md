@@ -81,6 +81,14 @@ A small number of territories consistently dominate bicycle demand, with Territo
 **Insight:**  
 Discount costs increased year-over-year, particularly for helmets, highlighting the need to balance promotional spend and margin protection.
 
+**Seasonal Discount Cost by Subcategory**
+
+| Year | Subcategory | Discount Cost |
+|------|-------------|---------------|
+| 2012 | Helmets     | 827.65        |
+| 2013 | Helmets     | 1,606.04      |
+
+
 📂 SQL: [04_discount_cost.sql](sql/query_04_discount_cost.sql)
 
 ---
@@ -88,6 +96,8 @@ Discount costs increased year-over-year, particularly for helmets, highlighting 
 ### 5️⃣ Customer Retention Analysis (2014 Cohort)
 **Insight:**  
 Customer retention drops sharply after the first purchase month, emphasizing the importance of early post-purchase engagement.
+![Results](images/Bicycle_4.png)
+
 
 📂 SQL: [05_customer_retention.sql](sql/query_05_customer_retention.sql)
 
@@ -96,6 +106,7 @@ Customer retention drops sharply after the first purchase month, emphasizing the
 ### 6️⃣ Inventory Stock Trend & MoM Change
 **Insight:**  
 Inventory levels fluctuate significantly across products, suggesting demand forecasting and production planning challenges.
+![Results](images/Bicycle_5.png)
 
 📂 SQL: [06_stock_trend.sql](sql/query_06_stock_trend.sql)
 
@@ -104,7 +115,7 @@ Inventory levels fluctuate significantly across products, suggesting demand fore
 ### 7️⃣ Stock-to-Sales Ratio Analysis
 **Insight:**  
 Several bicycle models show high stock-to-sales ratios, indicating overstocking and slow-moving inventory risks.
-
+![Results](images/Bicycle_6.png)
 📂 SQL: [07_stock_sales_ratio.sql](sql/query_07_stock_sales_ratio.sql)
 
 ---
@@ -112,6 +123,13 @@ Several bicycle models show high stock-to-sales ratios, indicating overstocking 
 ### 8️⃣ Pending Purchase Orders Risk
 **Insight:**  
 A large number of pending purchase orders represent material operational and financial risk for the supply chain.
+
+**Pending Purchase Orders Summary (2014)**
+
+| Year | Status | Order Count | Total Value |
+|------|--------|-------------|-------------|
+| 2014 | 1      | 224         | 3,873,579.01 |
+
 
 📂 SQL: [08_pending_orders.sql](sql/query_08_pending_orders.sql)
 
