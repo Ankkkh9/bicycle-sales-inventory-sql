@@ -136,12 +136,11 @@ A large number of pending purchase orders represent material operational and fin
 ---
 
 ## 🔑 Key Takeaways
-- Bicycle sales are driven by a small number of high-performing products and regions.
-- Accessories and apparel offer strong growth potential.
-- Inventory management is a critical operational challenge.
-- Promotions and procurement decisions have direct margin and cash-flow impact.
-- Customer retention requires focused post-purchase strategies.
-
+- Sales exhibit a clear seasonal pattern, with Q3 consistently being the peak period for both revenue and quantity.
+- Road Bikes and Mountain Bikes dominate revenue, contributing over 70% of total sales and driving overall performance.
+- Apparel and accessories show the strongest YoY growth, indicating potential to diversify beyond core bicycle products.
+- Sales demand is concentrated in a few key territories, with TerritoryID 4 consistently leading order volume.
+- Inventory volatility, rising promotion costs, and pending purchase orders highlight key operational and supply chain risks.
 ---
 
 ## 🚀 Next Steps
