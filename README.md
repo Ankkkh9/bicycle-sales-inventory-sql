@@ -70,7 +70,7 @@ Apparel-related products (Socks, Shorts, Jerseys) show the strongest YoY growth,
 ### 3️⃣ Top Sales Territories by Order Quantity
 **Insight:**  
 A small number of territories consistently dominate bicycle demand, with TerritoryID 4 ranking #1 across multiple years.
-![Results](images/Bicycle 3.png)
+![Results](images/Bicycle_3.png)
 
 
 📂 SQL: [03_top_territory.sql](sql/query_03_top_territory.sql)
